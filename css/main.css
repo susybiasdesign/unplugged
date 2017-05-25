@@ -171,6 +171,7 @@ h3      {
 
 .btn:hover
         {
+        color: #ffffff;
         background-color: #ff1256;
         }
 
@@ -181,6 +182,7 @@ input.btn
 
 input.btn:hover        
         {
+        color: #ffffff;   
         background-color: #b21e49;
         }
 
@@ -246,12 +248,6 @@ nav ul li a:active
         }   
 
 
-
-.sidebar i 
-        {
-        display: none;
-        }
-
 nav i   {
         padding: 0px 5px;    
         }
@@ -293,21 +289,19 @@ main    {
 
 /* ******** SIDEBAR ******** SIDEBAR ******** SIDEBAR ******** SIDEBAR ******** */   
 
-aside   {
-        
-        }
 
+
+
+.sidebar i 
+        {
+        display: none;
+        }
 
 .sidebar 
         {
         width: 100%;
         }
         
-
-form    {
-        
-        }
-
 .newsletter 
         {
         border-bottom: 1px solid #ccc;
@@ -327,9 +321,24 @@ form    {
         }
 
 
+.sidebar-detail .newsletter 
+        {
+        border-bottom: none;
+        }
+
+
+
 /*  HIDDEN ON MOBILE */   
 .sidebar-upcoming, .sidebar-faq {display: none;}    
 /* END HIDDEN ON MOBILE */   
+
+
+
+/*  HIDDEN ON MOBILE AND TABLET */   
+.sidebar-concert {display: none;}    
+/* END HIDDEN ON MOBILE AND TABLET */   
+
+
 
 .detail .newsletter
         {
@@ -402,12 +411,6 @@ form    {
         width: 100%;
         }
 
-.sidebar-detail .newsletter 
-        {
-        border-bottom: none;
-        border-top: 1px solid #ccc;
-        }
-
 article ul 
         {
         padding: 0;
@@ -419,9 +422,6 @@ article ul li
         display: inline-block;
         }
 
-.byline {
-        font-size: 1.1em;
-        }
 
 
 .reviews-image /* reviews image */
@@ -467,12 +467,96 @@ footer  {
         }
 
 
+/* ******** CONCERTS PAGE ******** */    
+/* ******** CONCERTS PAGE ******** */    
+
+.event-section
+        {width: 100%;}
+
+.concert-header
+        {
+        padding-top: 40px;
+        }   
+
+
+.concert-listing
+        {
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 15px;
+        padding-right: 2%;
+        }
+
+.concert-listing:nth-child(11)
+        {
+        border-bottom: none;
+        }
+
+
+.date-box
+        {
+        width: 20%;
+        max-width: 100px;
+        margin: 20px 0;
+        border: 1px solid #cccccc;
+        font-size: 1.2em;
+        line-height: 1;
+        text-transform: uppercase;
+        text-align: center;
+        float: left;
+        }
+
+.event-info
+        {
+        width: 70%;
+        float: left;
+        margin-left: 15px;}
+
+.event-info h2
+        {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        }
+
+.date-box h2
+        {
+        font-size: 1em;
+        }
+
+.event-info p
+        {
+        margin: 0;
+    }
+
+
+.btn-buy
+        {
+        background-color: #b21e49;
+        border: none;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 2.5;
+        text-align: center;
+        text-transform: uppercase;
+        height: 2.5em;
+        width: 100%;
+        display: block;
+        margin-top: 10px;
+        } 
+
+.btn-buy:hover
+        {
+        color: #ffffff;
+        background-color: #ff1256;
+        }
+
+
+
 /* ******** ABOUT PAGE ******** */    
 /* ******** ABOUT PAGE ******** */    
 
 .contact-section
         {
-        padding: 30px 0px;
+        padding: 40px 0px;
         }   
 
 
@@ -501,7 +585,7 @@ footer  {
 
 .contact-us p
         {
-        line-height: 1;
+        margin: 8px 0;
         }
 
 .map-container

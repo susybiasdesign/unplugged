@@ -107,6 +107,31 @@ nav ul li {
         }
 
 
+    .sidebar-detail h2, .sidebar-concert h2
+        {
+        font-size: 1.6em;
+        line-height: 1;
+        margin-bottom: 2%;
+        }
+
+    .sidebar-detail .newsletter input, .sidebar-concert .newsletter input
+        {
+        width: 65%;
+        height: 40px;
+        float: left;
+        margin-right: 1%;
+        }
+
+    .sidebar-detail .newsletter .btn,  .sidebar-concert .newsletter .btn
+        {
+        width: 32%;
+        padding: 0px;
+        height: 38px;
+        padding:0px;
+        display: inline-block;
+        }
+  
+ 
 
 /* Feed */
 
@@ -127,33 +152,6 @@ nav ul li {
 
 
 
-
-    .sidebar-detail h2
-        {
-
-        font-size: 1.6em;
-        line-height: 1;
-        margin-bottom: 2%;
-        }
-
-    .sidebar-detail .newsletter input
-        {
-        width: 65%;
-        height: 40px;
-        float: left;
-        margin-right: 1%;
-        }
-
-    .sidebar-detail .newsletter .btn
-        {
-        width: 32%;
-        padding: 0px;
-        height: 38px;
-        padding:0px;
-        display: inline-block;
-        }
-  
- 
 
    .reviews-image, .news-image
         {
@@ -231,6 +229,18 @@ nav ul li {
         margin-right: 40px;
         }
 
+    .concert-listing
+        {
+        width: 45%;
+        float: left;
+        padding-right: 5%;
+        }
+
+
+    .concert-listing:nth-child(10),
+    .concert-listing:nth-child(11)
+        {border-bottom: none}
+
 
 }  /* Close tablet query */ 
 
@@ -246,17 +256,8 @@ nav ul li {
         margin-bottom: .5em;
         }
 
-  .sidebar h2{
-        font-size: 1.6em;
-        line-height: 1;
-        margin-bottom: 2%;
-        }
-
-.detail-content figure
-    {margin-bottom: 15px;}
 
  /* Header  */
-
 
 
     nav {
@@ -264,10 +265,15 @@ nav ul li {
         }
 
 
-
-
 /* Featured News Item  */
- 
+
+
+    .detail-content figure
+        {
+        margin-bottom: 15px;
+        }
+
+
     .top-story
         {
         width:63%;
@@ -293,47 +299,111 @@ nav ul li {
 
 
 /* Sidebar  */
+
+
+    .sidebar i /* Font Awesome Icons */
+        {
+        display: inline;
+        padding: 0px 10px;
+        }
+
+    .sidebar h2,
+    .sidebar-concert h2,
+    .sidebar-detail h2
+        {
+        font-size: 1.6em;
+        line-height: 1;
+        margin-bottom: 2%;
+        }
+
+    .sidebar-concert /* Only shows on desktop view  */
+        {
+        display: block;
+        }
  
-    .sidebar
+    .sidebar, .sidebar-concert
         {
         padding-top: 20px;
         clear: none;
+        width: 33%;
+        float: left; 
+        }
+
+    .sidebar-concert
+        {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #cccccc;
+        }
+
+    .sidebar-detail .newsletter 
+        {
         width: 30%;
-        float: right; 
+        float: right;
+        padding-top: 2%;
+        margin-bottom: .5%;
+        border-top: none;
+        border-bottom: none;
+        padding-bottom: 30px;
+        padding-left: 0px;
         }
 
 
-    .sidebar-upcoming, .sidebar-faq 
+
+
+   .sidebar-detail .newsletter input,
+   .sidebar-concert .newsletter input
         {
-        border-top: 1px solid #ccc;
+        width: 100%;
+        }
+
+
+    .sidebar-detail .newsletter .btn,
+    .sidebar-concert .newsletter .btn
+        {
+        width: 100%;
+        }
+
+
+    .sidebar-upcoming h2
+        {
+        margin-top: 0px;
+        }
+
+    .sidebar-upcoming 
+        {
         padding-top: 20px;
         border-bottom: none;
+        border-top: 1px solid #ccc;
+        padding-bottom: 30px;
+        padding-left:15px;
         }
 
+    .sidebar-faq h2
+        {
+        margin-top: 0px;
+        }
+
+    .sidebar-faq
+        {
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        border-bottom: none;
+        padding-left:15px;
+        }
+
+    .newsletter
+        {
+        padding-bottom: 30px;
+        padding-left: 15px;
+        border-bottom: none;
+        }
 
     .newsletter input[type="text"]
         {
         margin-top: 10px;
         }
-     
 
-    .sidebar-detail .newsletter input
-        {
-        width: 100%;
 
-        }
-
-    .sidebar-detail .newsletter .btn
-        {
-        width: 100%;
-        }
-
-  .sidebar i 
-        {
-        display: inline;
-        padding: 0px 10px;
-        }
- 
 
 /* Feed */
 
@@ -374,16 +444,6 @@ nav ul li {
         clear: none;
         }
 
-    .sidebar-detail .newsletter 
-        {
-        width: 30%;
-        float: right;
-        padding-top: 2%;
-        margin-bottom: .5%;
-        border-top: none;
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 30px;
-        }
 
    .reviews-image, 
    .news-image
@@ -404,7 +464,7 @@ nav ul li {
         float: left;
         }
 
-.detail-story
+    .detail-story
         {
         padding-bottom: 80px;
         }
@@ -430,7 +490,16 @@ nav ul li {
         display: block;
         }
 
-        
+
+    .event-section
+        {
+        width: 66%;
+        float: left;
+        border-right: solid 1px #cccccc;
+        }
+
+
+
 }  /* Close desktop query */ 
 
 
