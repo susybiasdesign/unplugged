@@ -1,0 +1,546 @@
+/* ******** BREAK POINTS ******** BREAK POINTS ******** */   
+
+/* ******** BREAK POINTS ******** BREAK POINTS ******** */   
+
+/* ******** BREAK POINTS ******** BREAK POINTS ******** */   
+
+
+
+/* ************* TABLET QUERY *************  */
+
+@media only screen and (min-width: 768px)
+{
+
+
+    h1 {
+
+        font-size: 1.7em;
+        line-height: 1.1;
+        }
+
+    h2  {
+        font-size: 1.2em;
+        }
+
+
+
+
+ /* Header  */
+
+.main-header
+        {
+        width: 96%;
+        max-width: 960px;
+        margin:auto;
+        background-color: #dddddd;
+        }
+
+#logo   {
+        width: 40%;
+        float: left;
+        padding: .5%;
+        }
+
+nav     {
+        width: 54%;
+        float: right;
+        margin-top: 16px;
+        text-align: right;
+        padding-right: 20px;
+        }
+
+nav ul  {
+        margin: 0;
+        }
+    
+nav ul li {
+        display: inline;
+        padding: 0 1%;
+        border: none;
+        line-height: 2;
+        position:relative;
+        top: 16px;
+        }
+
+
+
+
+/* Featured News Item  */
+ 
+    .top-story
+        {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        }
+
+    .top-image
+        {
+        width: 57%;
+        margin: 0px;
+        float: left;
+        margin-right: 3%;
+        border: solid 2px #222222;
+        }
+
+    .top-info
+        {
+        width: 38%;
+        float:left;
+        }
+
+
+/* Sidebar  */
+ 
+    .sidebar
+        {
+        clear: both;
+        width: 37%;
+        float: right;
+        }
+
+    .sidebar-upcoming, .sidebar-faq 
+        {
+        display: block;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        }
+
+
+
+/* Feed */
+
+    .feed 
+        {
+        width: 60%;
+        float: left;
+        border-right: 1px solid #ccc;
+        }
+
+    .feed-image 
+        {
+        width: 35%;
+        }
+
+
+/* Detail pages */
+
+
+    .detail-content /* article on news page */
+        {
+        margin-top: 20px;
+        }
+
+    .detail-content figure
+        {
+        margin-bottom: 15px;
+        }
+
+    .sidebar-detail
+        {
+        height: 150px;
+        }
+
+      
+
+    .sidebar-detail h2
+        {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        }
+
+
+    .sidebar-detail .newsletter input
+        {
+        width: 65%;
+        height: 40px;
+        float: left;
+        margin-right: 1%;
+        }
+
+    .sidebar-detail .newsletter .btn
+        {
+        width: 32%;
+        padding: 0px;
+        height: 38px;
+        padding:0px;
+        display: inline-block;
+        }
+  
+ 
+
+
+
+   .reviews-image, .news-image
+        {
+        width: 50%;
+        float: left;
+        }
+    
+    .detail-title
+        {
+        width: 47%;
+        float: left;
+        }
+
+    .detail
+        {
+        width: 100%;    
+        }
+    .detail .newsletter input
+        {
+        display: inline;
+        }
+  
+
+/* Footer */
+
+    footer
+        {
+        width: 100%;
+        clear:both;
+        }
+
+    #footer-logo
+        {
+        width: 20%;
+        margin: auto;
+        }
+
+    .contact-us 
+        {
+        padding-bottom: 20px;
+        }
+
+
+    .mission
+        {
+        border-top :1px solid #ccc;
+        padding-bottom: 20px;
+        }
+
+    .team 
+        {
+        border-top :1px solid #ccc;
+        padding-bottom: 100px;
+        }
+
+
+    .team-image
+        {
+        width: 20%;
+        padding-bottom: 20%;
+        margin-right: 40px;
+        }
+
+
+}  /* Close tablet query */ 
+
+
+
+/* ************ DESKTOP QUERY ************ */ 
+
+@media (min-width: 940px)
+{
+    h1 {
+        font-size: 2.1em;
+        line-height: 1.1;
+        margin-bottom: .5em;
+        }
+
+  .sidebar h2{
+        font-size: 1.6em;
+        line-height: 1;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+        }
+
+
+
+ /* Header  */
+
+
+
+    nav {
+        margin-top: 32px;
+        }
+
+
+
+
+/* Featured News Item  */
+ 
+    .top-story
+        {
+        width:66%;
+        float: left;
+        border-right: 1px solid #ccc;
+        padding-right: 2%;
+        border-bottom: none;
+        }
+
+    .top-image
+        {
+        width: 100%;
+        margin: 0px; 
+        float:left;
+        }
+
+    .top-info
+        {
+        width: 100%;
+        margin-top: 15px;
+        }
+
+
+/* Sidebar  */
+ 
+    .sidebar
+        {
+        padding-top: 20px;
+        clear: none;
+        width: 30%;
+        float: right; 
+        }
+
+
+    .sidebar-upcoming, .sidebar-faq 
+        {
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+        border-bottom: none;
+        }
+
+
+    .newsletter input[type="text"]
+        {
+        margin-top: 10px;
+        }
+     
+
+    .sidebar-detail .newsletter input
+        {
+        width: 100%;
+
+        }
+
+    .sidebar-detail .newsletter .btn
+        {
+        width: 100%;
+        }
+  
+ 
+
+/* Feed */
+
+    .feed 
+        {
+        width: 100%;
+        float: none;
+        clear: both;
+        border-top: solid 1px #ccc;
+        border-right: none;
+        }
+
+    .feed p
+        {
+        display: block;
+
+        }
+
+    .feed-image 
+        {
+        width: 20%;   
+        padding-right: 4%;    
+        }
+
+    .feed-item
+        {      
+
+        }
+
+/* Detail pages */
+
+    article.detail-content
+        {
+        width: 63%;
+        float: left;
+        padding-right: 3%;
+        border-right: 1px solid #ccc;
+        }
+
+    article.article-header
+        {
+        width: 30%;
+        float: right;
+        clear: none;
+        }
+
+    .sidebar-detail .newsletter 
+        {
+        width: 30%;
+        float: right;
+        margin-top: 1%;
+        margin-bottom: .5%;
+        border-top: none;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        }
+
+   .reviews-image, 
+   .news-image
+        {
+        width: 25%;
+        float: left;
+        }
+    
+    .detail-title
+        {
+        width: 75%;
+        float: none;
+        }
+
+    .detail
+        {
+        width: 75%;    
+        float: left;
+        }
+
+.detail-story
+        {
+        padding-bottom: 80px;
+        }
+
+
+
+/* Footer */
+
+    footer
+        {
+        width: 100%;
+        clear:both;
+        }
+
+    #footer-logo
+        {
+        width: 15%;
+        margin: auto;
+        }
+
+
+    .team-description
+        {
+        display: block;
+        }
+
+
+    .team 
+        {
+        padding-bottom: 160px;
+        }
+        
+}  /* Close desktop query */ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+/*DON'T DELETE THIS LITTLE YELLOW THING. 
+/*
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print,
+
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+  /* FOLDED HELPER STYLES
