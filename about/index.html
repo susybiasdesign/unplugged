@@ -13,10 +13,12 @@
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="stylesheet" href="../css/queries.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
 
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet"> 
+
 
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -29,16 +31,16 @@
 <header class="main-header clearfix">
     <h1 id="logo">
         <figure>
-        <a href="/..index.html"><img src="../img/logo.png" alt="Unplugged logo"/></a>
+        <a href="../index.html"><img src="../img/logo.png" alt="Unplugged logo"/></a>
         </figure>
     </h1>
 
     <nav>
         <ul>
-            <li><a href="../concerts/index.html">Concerts</a></li>
-            <li><a href="../reviews/index.html">Reviews</a></li>
-            <li><a href="../about/index.html">About Us</a></li>
-            <li><a href="../about/faq.html">FAQ</a></li>
+            <li><a href="../concerts/index.html"><i class="fa fa-music"></i>Concerts</a></li>
+            <li><a href="../reviews/index.html"><i class="fa fa-headphones"></i>Reviews</a></li>
+            <li><a href="index.html"><i class="fa fa-users"></i>About Us</a></li>
+            <li><a href="faq.html"><i class="fa fa-question-circle"></i>FAQ</a></li>
         </ul>
     </nav>
 
@@ -47,15 +49,22 @@
 
 <main> <!--opens Main Content Div -->
 
-    <div class="contact-us">
+  <div class="contact-section">
 
-        <h1>Contact Us</h1>
-        <p>Email: </p>
-        <p>Telephone: </p>
-        <p>Address: </p>
+        <div class="contact-us">
 
-    </div>
+            <h1>Contact Us</h1>
+            <p>Email: <a href="mailto:hello@unplugged.com">hello@unplugged.com</a></p>
+            <p>Telephone: 555.555.5555</p>
+            <p>Address: 100 Fake Street<br>Brooklyn, NY 10000</p>
 
+        </div>
+
+        <div class="map-container">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.7122045955957!2d-73.99104808439346!3d40.702335579332896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a33e27d5035%3A0x155d5b662b4ec4b8!2s100+Front+St%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1495674584232" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+   </div> <!--closes contact-section div -->
 
     <div class="mission">
 

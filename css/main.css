@@ -104,14 +104,6 @@ Bright Pink: #ff1256;
 Dark Grey: #222222;
 Blue: #23a4cc;
 ============================================= */
-@font-face {
-      font-family: 'FontAwesome';
-      src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-      src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
-      font-weight: normal;
-      font-style: normal;
-      }
-
 
 /* ******** GLOBAL STYLES ******** */
 
@@ -131,6 +123,12 @@ a       {
         color: #23a4cc;
         text-decoration: none;
         }
+
+a:hover 
+        {
+        color: #ff1256;
+        }   
+
 
 p       {
         font-size: 1em;
@@ -165,6 +163,7 @@ h3      {
         font-weight: 700;
         line-height: 2.5;
         text-align: center;
+        text-transform: uppercase;
         height: 2.5em;
         width: 100%;
         display: block;
@@ -206,8 +205,8 @@ ul      {
 #logo 
         {
         background-color: #222222;
-        margin: 0 auto;
-        padding: 3%;
+        margin: auto;
+        padding: 1%;
         }
 
 
@@ -224,7 +223,7 @@ nav ul  {
 
 nav ul li  {  
         border-bottom: 1px solid #cccccc;
-        font-size: 1.1em;
+        font-size: 1em;
         text-align: center;
         text-transform: uppercase;
         padding: 15px 0;
@@ -238,7 +237,27 @@ nav ul li a
 nav ul li a:hover 
         {
         color: #ff1256;
-        }       
+        }   
+
+
+nav ul li a:active 
+        {
+        color: #ff1256;
+        }   
+
+
+
+.sidebar i 
+        {
+        display: none;
+        }
+
+nav i   {
+        padding: 0px 5px;    
+        }
+
+
+
 
 
 
@@ -256,10 +275,7 @@ main    {
 
 /* ******** HERO ******** HERO ******** HERO ******** HERO ******** */
 
-.hero-area /* surrounds hero div */
-        {
-        
-        }
+
 
 .top-story /* hero div */
         {
@@ -273,12 +289,6 @@ main    {
         width: 100%;
         height: auto;
         }
-
-.top-info  /* hero text */
-        {
-        
-        }
-
 
 
 /* ******** SIDEBAR ******** SIDEBAR ******** SIDEBAR ******** SIDEBAR ******** */   
@@ -396,7 +406,6 @@ form    {
         {
         border-bottom: none;
         border-top: 1px solid #ccc;
-
         }
 
 article ul 
@@ -437,31 +446,6 @@ article ul li
         padding-bottom: 30px;
         }
 
-.article-header /* header on news page */
-        {
-        
-        }
-
-.detail-title /* also header on news page */
-        {
-        
-        }
-
-.article-meta-info /* author and date */
-        {
-        
-        }
-
-.article-author /* author */
-        {
-        
-        }
-
-.article-pub-date /* date */
-        {
-        
-        }
-
 
 /* ******** FOOTER ******** FOOTER ******** FOOTER ******** FOOTER ******** */   
 
@@ -470,7 +454,7 @@ footer  {
         width: 100%;
         border-top: 1px solid #cccccc;
         padding-top: 20px;
-        margin-top: 20px;
+        margin-top: 100px;
         }
 
 
@@ -483,17 +467,70 @@ footer  {
         }
 
 
-/* ******** MISSION PAGE ******** */    
-/* ******** MISSION PAGE ******** */    
+/* ******** ABOUT PAGE ******** */    
+/* ******** ABOUT PAGE ******** */    
 
-.contact-us, .mission
+.contact-section
+        {
+        padding: 30px 0px;
+        }   
+
+
+.contact-us
+        {
+        width: 100%;
+        }
+
+.contact-us a 
+        {
+        font-weight: 400;
+        color: #222222;
+        }
+
+
+.contact-us a:hover 
+        {
+        color: #ff1256;
+        }   
+
+.contact-us a:visited 
+        {
+        color: #222222;
+        }   
+
+
+.contact-us p
+        {
+        line-height: 1;
+        }
+
+.map-container
+        {
+        position: relative;
+        padding-bottom: 75%;
+        width: 100%;
+        border: 1px solid #333;
+        height: 0;
+        overflow: hidden;
+        }
+
+.map-container iframe
+        {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+
+
+.mission
         {
         padding-top: 20px;
         }
 
 .team   {
         padding-top: 20px;
-        padding-bottom: 100px;
         }
 
 
@@ -535,10 +572,37 @@ footer  {
 
 
 
+/* ******** FAQ PAGE ******** */    
+/* ******** FAQ PAGE ******** */    
 
+ .faq-questions
+        {
+        padding: 40px 0px;
+        }   
 
+.faq-questions h4
+        {
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 1.1em;
+        }
 
+.faq-questions a
+        {
+        font-weight: 400;
+        color: #222222;
+        }
 
+.faq-questions a:hover 
+        {
+        color: #ff1256;
+        }   
+
+.faq-questions hr
+        {
+        margin-top:30px;
+        border-style: 1px solid #cccccc;    
+        }
 
 /* ==========================================================================
    Helper classes
