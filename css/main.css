@@ -175,12 +175,21 @@ h3      {
         background-color: #ff1256;
         }
 
-input.btn        
+.btn-pink        
         {
         background-color: #ff1256;
+        border: none;
+        color: #ffffff;
+        font-weight: 700;
+        line-height: 2.5;
+        text-align: center;
+        text-transform: uppercase;
+        height: 2.5em;
+        width: 100%;
+        display: block;
         }
 
-input.btn:hover        
+.btn-pink:hover        
         {
         color: #ffffff;   
         background-color: #b21e49;
@@ -292,58 +301,42 @@ main    {
 
 
 
-.sidebar i 
+.sidebar i,.sidebar-tablet i 
         {
         display: none;
         }
 
-.sidebar 
+.sidebar, .sidebar-tablet 
         {
         width: 100%;
         }
         
-.newsletter 
+.newsletter
         {
         border-bottom: 1px solid #ccc;
         padding-bottom: 20px;
         }
 
-.newsletter input
+
+.newsletter input, .newsletter-tablet input
         {
         width: 100%;
         box-sizing: border-box;
         }
 
-.newsletter input[type="text"]
+.newsletter input[type="text"], .newsletter-tablet input[type="text"]
         {
         margin-bottom: 10px;
         padding: 5px 0;
-        }
-
-
-.sidebar-detail .newsletter 
-        {
-        border-bottom: none;
+        height: 40px;
         }
 
 
 
 /*  HIDDEN ON MOBILE */   
-.sidebar-upcoming, .sidebar-faq {display: none;}    
+.sidebar-upcoming, .sidebar-faq, .sidebar-hidden {display: none;}    
 /* END HIDDEN ON MOBILE */   
 
-
-
-/*  HIDDEN ON MOBILE AND TABLET */   
-.sidebar-concert {display: none;}    
-/* END HIDDEN ON MOBILE AND TABLET */   
-
-
-
-.detail .newsletter
-        {
-        border-bottom: none;
-        }
 
 /* ******** FEED ******** FEED ******** FEED ******** FEED ******** */   
 
