@@ -9,7 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/*DON'T DELETE THIS LITTLE YELLOW THING 
+/* 
 html {
     color: #222;
     font-size: 1em;
@@ -685,13 +685,13 @@ footer  {
 .faq-questions hr
         {
         margin-top:30px;
-        border-style: 1px solid #cccccc;    
+        border-top: 1px solid #cccccc;    
         }
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-/*DON'T DELETE THIS LITTLE YELLOW THING. 
+ 
 /*
  * Hide visually and from screen readers
  */
@@ -761,13 +761,4 @@ footer  {
 .clearfix:after {
     clear: both;
 }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-  /* FOLDED HELPER STYLES
-
-
 
