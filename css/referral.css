@@ -60,7 +60,7 @@ a:hover {opacity: .8;}
 .contact-form
 		{
 		width: 80%;
-		max-width: 450px;
+		/* max-width: 450px; */
 		margin:auto;
 		padding: 10px 0;
 		}   
